@@ -2,6 +2,7 @@
 
 创造 Rematch 的灵感来源于 [Dva](https://github.com/dvajs/dva/) 和 [Mirror](https://github.com/mirrorjs/mirror) .
 
+```
 |  | Rematch  | Mirror | Dva |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 适用框架 | 所有框架 / 不使用框架 | React | React |
@@ -19,7 +20,7 @@
 | dispatch promises | √ |  | √ |
 | 加载插件 | √ | √ | √ |
 | persist plugin | √ |  |  |
-
+```
 ### 从 Redux 轻松迁移
 
 从 Redux 迁移到 Rematch 只会在状态管理上有微小的改变，不会影响到你的视图逻辑。你可以通过将现有的 reducers 当作 `extraReducers` 传入 `init` 继续使用你当前的 reducers，你也可以使用 `dispatch(action)`直接触发 actions。
