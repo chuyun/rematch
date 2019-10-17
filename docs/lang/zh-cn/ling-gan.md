@@ -2,6 +2,7 @@
 
 创造 Rematch 的灵感来源于 [Dva](https://github.com/dvajs/dva/) 和 [Mirror](https://github.com/mirrorjs/mirror) .
 
+```
 |  | Rematch  | Mirror | Dva |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 适用框架 | 所有框架 / 不使用框架 | React | React |
@@ -19,6 +20,7 @@
 | dispatch promises | √ |  | √ |
 | 加载插件 | √ | √ | √ |
 | persist plugin | √ |  |  |
+```
 
 ### 从 Redux 轻松迁移
 
